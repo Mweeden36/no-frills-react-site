@@ -34,41 +34,33 @@ export default class Resume extends Component {
             <div className="section-name">
               <p>Experience</p>
             </div>
-            <div className="experience-member">
-              <div class="experience-member-info">
-                <div class="company">Critical Mention</div>
-                <div className="position">Software Engineer</div>
+            <div className="table-display">
+              <div class="table-row overview">
+                <div class="table-detail">Critical Mention</div>
+                <div class="table-detail date">2018 - Present</div>
               </div>
-              <div className="experience-date">
-                2018 - Present
-              </div>
+              <div class="table-row">Software Engineer</div>
             </div>
-            <div className="experience-member">
-              <div class="experience-member-info">
-                <div class="company">Trans World Entertainment</div>
-                <div className="position">Software Engineer III</div>
+            <div className="table-display">
+              <div class="table-row overview">
+                <div class="table-detail">Trans World Entertainment</div>
+                <div class="table-detail date">2017 - 2018</div>
               </div>
-              <div className="experience-date">
-                2017 - 2018
-              </div>
+              <div class="table-row">Software Engineer III</div>
             </div>
-            <div className="experience-member">
-              <div class="experience-member-info">
-                <div class="company">Salient Management</div>
-                <div className="position">Application Engineer II</div>
+            <div className="table-display">
+              <div class="table-row overview">
+                <div class="table-detail">Salient Management</div>
+                <div class="table-detail date">2015 - 2017</div>
               </div>
-              <div className="experience-date">
-                2015 - 2017
-              </div>
+              <div class="table-row">Application Engineer II</div>
             </div>
-            <div className="experience-member">
-              <div class="experience-member-info">
-                <div class="company">Critical Mention</div>
-                <div className="position">Frontend Developer</div>
+            <div className="table-display">
+              <div class="table-row overview">
+                <div class="table-detail">Critical Mention</div>
+                <div class="table-detail date">2014 - 2015</div>
               </div>
-              <div className="experience-date">
-                2014 - 2015
-              </div>
+              <div class="table-row">Frontend Developer</div>
             </div>
           </div>
           <div className="resume-section education">
