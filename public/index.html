@@ -45,8 +45,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
-      gtag('config', 'UA-113890951-1');
+      var trackingID = isProd ? 'UA-113890951-2' : 'UA-113890951-1';
+      gtag('config', trackingID);
     </script>
   </body>
 </html>
