@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Particles from 'react-particles-js';
-import particleConfig from '../config/particlesjs-config.json';
-import '../css/Info.css';
 
 class Info extends Component {
   render() {
@@ -9,7 +6,7 @@ class Info extends Component {
       <div className="info-container">
         <div className="info">
           <div className="headshot">
-            <img src="/headshot.jpg" />
+            <img alt="My Face" src="/headshot.jpg" />
           </div>
           <div className="header-text">
             <h1>I'm Mike. A Software Engineer at <a className="header-text-link" href="https://criticalmention.com" target="_blank" rel="noopener noreferrer">Critical Mention</a>.</h1>

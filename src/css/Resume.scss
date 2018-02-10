@@ -1,0 +1,96 @@
+@import 'mixins-and-vars.scss';
+
+.resume-container {
+  display: inline-block;
+  padding: 25px 25px 80px;
+
+  @include tablet-portrait-and-above {
+    float: right;
+    top: 0;
+    right: 0;
+    width: 45%;
+    overflow-x: hidden;
+  }
+  
+  .resume-section {
+    clear: both;
+    display: block;
+    overflow: auto;
+    margin-top: 25px;
+    .section-name {
+      margin: 0 0 20px 0;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $dark-color;
+    }
+    .text {
+      line-height: 25px;
+      p {
+        margin: 0;
+        color: #313131;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+    }
+    .list {
+      clear: both;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        margin-bottom: 10px;
+        font-weight: 700;
+
+        &::before {
+          position: relative;
+          bottom: 0.2ex;
+          margin-right: 20px;
+          content: "";
+          font-family: "FontAwesome";
+          font-size: 8px;
+        }
+      }
+    }
+    .experience-member {
+      margin-bottom: 20px;
+      height: 40px;
+
+      .experience-member-info {
+        float: left;
+        .company {
+          font-weight: 700;
+          line-height: 25px;
+          display: block;
+        }
+        .position {
+          max-width: 50%;
+        }
+      }
+      .experience-date {
+        float: right;
+        font-weight: 700;
+        line-height: 25px;
+      }
+    }
+    .table-display {
+      display: table;
+      width: 100%;
+      .table-row {
+        display: table-row;
+
+        &.overview {
+          font-weight: 700;
+        }
+        .table-detail {
+          display: table-cell;
+
+          &.date {
+            width: 81px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+$mq-tablet-portrait		: 768px !default;
+
+@mixin tablet-portrait-and-above {
+  @media only screen and (min-width : $mq-tablet-portrait) {
+		@content;
+	}
+}
+
+$main-color: #A24C50;
+$dark-color: #621317;

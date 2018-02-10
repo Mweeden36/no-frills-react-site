@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Info from './components/Info';
 import Resume from './components/Resume';
-import './css/App.css';
-import './css/Particle.css';
+import './css/style.css';
 
 
 class App extends Component {
