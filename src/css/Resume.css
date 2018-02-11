@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.resume-container {
+  display: inline-block;
+  padding: 25px 25px 80px; }
+  @media only screen and (min-width: 768px) {
+    .resume-container {
+      float: right;
+      top: 0;
+      right: 0;
+      width: 45%;
+      overflow-x: hidden; } }
+  .resume-container .resume-section {
+    clear: both;
+    display: block;
+    overflow: auto;
+    margin-top: 25px; }
+    .resume-container .resume-section .section-name {
+      margin: 0 0 20px 0;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #621317; }
+    .resume-container .resume-section .text {
+      line-height: 25px; }
+      .resume-container .resume-section .text p {
+        margin: 0;
+        color: #313131;
+        font-weight: 400;
+        word-wrap: break-word; }
+    .resume-container .resume-section .list {
+      clear: both;
+      padding: 0;
+      list-style-type: none; }
+      .resume-container .resume-section .list li {
+        margin-bottom: 10px;
+        font-weight: 700; }
+        .resume-container .resume-section .list li::before {
+          position: relative;
+          bottom: 0.2ex;
+          margin-right: 20px;
+          content: "";
+          font-family: "FontAwesome";
+          font-size: 8px; }
+    .resume-container .resume-section .experience-member {
+      margin-bottom: 20px;
+      height: 40px; }
+      .resume-container .resume-section .experience-member .experience-member-info {
+        float: left; }
+        .resume-container .resume-section .experience-member .experience-member-info .company {
+          font-weight: 700;
+          line-height: 25px;
+          display: block; }
+        .resume-container .resume-section .experience-member .experience-member-info .position {
+          max-width: 50%; }
+      .resume-container .resume-section .experience-member .experience-date {
+        float: right;
+        font-weight: 700;
+        line-height: 25px; }
+    .resume-container .resume-section .table-display {
+      display: table;
+      width: 100%;
+      padding-bottom: 10px; }
+      .resume-container .resume-section .table-display .table-row {
+        display: table-row; }
+        .resume-container .resume-section .table-display .table-row.overview {
+          font-weight: 700; }
+        .resume-container .resume-section .table-display .table-row .table-detail {
+          display: table-cell; }
+          .resume-container .resume-section .table-display .table-row .table-detail.date {
+            width: 105px;
+            text-align: right; }
