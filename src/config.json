@@ -1,0 +1,46 @@
+{
+  "firstName": "Mike",
+  "lastName": "Weeden",
+  "companyName": "Critical Mention",
+  "companyLink": "https://criticalmention.com",
+  "twitterLink": "https://twitter.com/turkey_melon",
+  "githubLink": "https://github.com/Mweeden36",
+  "linkedInLink": "https://www.linkedin.com/in/mikeweeden36",
+  "resume": {
+    "aboutBlurb": "I'm a big fan of JavaScript, and I love building things. I have a <i>beautiful</i> wife, and a very smelly dog. I enjoy a good beer, and a good hockey game. Go Rangers!",
+    "skills": [
+      "ReactJS",
+      "Backbone.js",
+      "SASS",
+      "Node.js",
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "employmentHistory": [
+      {
+        "companyName": "Critical Mention",
+        "date": "2018 - Present",
+        "jobTitle": "Software Engineer"
+      }, {
+        "companyName": "Trans World Entertainment",
+        "date": "2017 - 2018",
+        "jobTitle": "Software Engineer III"
+      }, {
+        "companyName": "Salient Management",
+        "date": "2015 - 2017",
+        "jobTitle": "Application Engineer II"
+      }, {
+        "companyName": "Critical Mention",
+        "date": "2014 - 2015",
+        "jobTitle": "Frontend Developer"
+      }
+    ],
+    "education": {
+      "schoolName": "SUNY New Paltz",
+      "date": "2010 - 2014",
+      "degreeName": "B.S. Computer Science",
+      "honors": "Dean's List Fall 2010, Spring 2011, Fall 2012 - Spring 2014"
+    }
+  }
+}
